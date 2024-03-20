@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script>
+        console.log("teste");
+        (function(n,i,v,r,s,c,x,z){x=window.AwsRumClient={q:[],n:n,i:i,v:v,r:r,c:c};window[n]=function(c,p){x.q.push({c:c,p:p});};z=document.createElement('script');z.async=true;z.src=s;document.head.insertBefore(z,document.head.getElementsByTagName('script')[0]);})(
+          'cwr',
+          '7b300f2b-ded9-434b-ab3a-6ef1a83e1129',
+          '1.0.0',
+          'us-east-2',
+          'https://client.rum.us-east-1.amazonaws.com/1.16.1/cwr.js',
+          {
+            sessionSampleRate: 1,
+            guestRoleArn: "arn:aws:iam::188195028314:role/RUM-Monitor-us-east-2-188195028314-2666830610171-Unauth",
+            identityPoolId: "us-east-2:ee30c645-68b5-4207-b8a5-1b6cbe1afdef",
+            endpoint: "https://dataplane.rum.us-east-2.amazonaws.com",
+            telemetries: ["performance","errors","http"],
+            allowCookies: true,
+            enableXRay: false
+          }
+        );
+      </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Minha Página HTML</h1>
+    </header>
+
+    <section>
+        <h2>Seção de Conteúdo</h2>
+        <p>Esta é uma página HTML simples.</p>
+    </section>
+
+    <footer>
+        <p>Rodapé - © 2024 Minha Página</p>
+    </footer>
+
+</body>
+</html>
